@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554159E51FBF01110044FF18 /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 554159E31FBF01110044FF18 /* PhantomFromSpace.mp3 */; };
+		554159E61FBF01110044FF18 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 554159E41FBF01110044FF18 /* README.txt */; };
 		558F477A1FBF004F00B0335C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558F47791FBF004F00B0335C /* AppDelegate.swift */; };
 		558F477C1FBF004F00B0335C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558F477B1FBF004F00B0335C /* ViewController.swift */; };
 		558F477F1FBF004F00B0335C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558F477D1FBF004F00B0335C /* Main.storyboard */; };
@@ -72,6 +74,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		554159E31FBF01110044FF18 /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhantomFromSpace.mp3; sourceTree = "<group>"; };
+		554159E41FBF01110044FF18 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		558F47761FBF004F00B0335C /* Project37.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project37.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558F47791FBF004F00B0335C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558F477B1FBF004F00B0335C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +122,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		554159E21FBF01110044FF18 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				554159E31FBF01110044FF18 /* PhantomFromSpace.mp3 */,
+				554159E41FBF01110044FF18 /* README.txt */,
+			);
+			name = Content;
+			path = "../../HackingWithSwift/project37-files/Content";
+			sourceTree = "<group>";
+		};
 		558F476D1FBF004E00B0335C = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				558F47791FBF004F00B0335C /* AppDelegate.swift */,
+				554159E21FBF01110044FF18 /* Content */,
 				558F477B1FBF004F00B0335C /* ViewController.swift */,
 				558F477D1FBF004F00B0335C /* Main.storyboard */,
 				558F47801FBF004F00B0335C /* Assets.xcassets */,
@@ -313,8 +328,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				558F47841FBF004F00B0335C /* LaunchScreen.storyboard in Resources */,
+				554159E51FBF01110044FF18 /* PhantomFromSpace.mp3 in Resources */,
 				558F47811FBF004F00B0335C /* Assets.xcassets in Resources */,
 				558F477F1FBF004F00B0335C /* Main.storyboard in Resources */,
+				554159E61FBF01110044FF18 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,7 +623,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Project37;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -620,7 +637,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Project37;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
