@@ -12,6 +12,7 @@ import GameplayKit
 class ViewController: UIViewController {
     // MARK: Properties
     @IBOutlet weak var cardContainer: UIView!
+    @IBOutlet weak var gradientView: GradientView!
     
     var allCards = [CardViewController]()
     
@@ -19,6 +20,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         loadCards()
+        
+        view.backgroundColor = UIColor.red
+        UIView.animate(withDuration: 20, delay: 0, options: [.allowUserInteraction, .autoreverse, .repeat], animations: {
+            self.view.backgroundColor = UIColor.blue
+        })
     }
 
     override func didReceiveMemoryWarning() {

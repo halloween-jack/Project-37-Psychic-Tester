@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5525F7A11FC1AC5F00322491 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525F7A01FC1AC5F00322491 /* GradientView.swift */; };
 		554159E51FBF01110044FF18 /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 554159E31FBF01110044FF18 /* PhantomFromSpace.mp3 */; };
 		554159E61FBF01110044FF18 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 554159E41FBF01110044FF18 /* README.txt */; };
 		554159E81FBF07920044FF18 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554159E71FBF07920044FF18 /* CardViewController.swift */; };
@@ -75,6 +76,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5525F7A01FC1AC5F00322491 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		554159E31FBF01110044FF18 /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhantomFromSpace.mp3; sourceTree = "<group>"; };
 		554159E41FBF01110044FF18 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		554159E71FBF07920044FF18 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				558F477B1FBF004F00B0335C /* ViewController.swift */,
 				558F477D1FBF004F00B0335C /* Main.storyboard */,
 				554159E71FBF07920044FF18 /* CardViewController.swift */,
+				5525F7A01FC1AC5F00322491 /* GradientView.swift */,
 				558F47801FBF004F00B0335C /* Assets.xcassets */,
 				558F47821FBF004F00B0335C /* LaunchScreen.storyboard */,
 				558F47851FBF004F00B0335C /* Info.plist */,
@@ -371,6 +374,7 @@
 			files = (
 				558F477C1FBF004F00B0335C /* ViewController.swift in Sources */,
 				558F477A1FBF004F00B0335C /* AppDelegate.swift in Sources */,
+				5525F7A11FC1AC5F00322491 /* GradientView.swift in Sources */,
 				554159E81FBF07920044FF18 /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
